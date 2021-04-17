@@ -28,7 +28,7 @@ CONTACT_ATTR_NAME = 'name'
 CONTACT_ATTR_DEVICE_TYPE = 'device_type'
 CONTACT_ATTR_SUBTYPE = 'subtype'
 
-SCAN_INTERVAL = timedelta(seconds=10)
+SCAN_INTERVAL = timedelta(seconds=30)
 
 
 def setup_platform(hass, config, add_devices, discovery_info=None):
