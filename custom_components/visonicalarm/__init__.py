@@ -109,7 +109,7 @@ class VisonicAlarmHub(Entity):
         """ Return the last update timestamp. """
         return self._last_update
 
-    @Throttle(timedelta(seconds=10))
+    @Throttle(timedelta(seconds=30))
     def update(self):
         """ Update all alarm statuses. """
         try:
